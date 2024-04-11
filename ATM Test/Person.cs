@@ -16,7 +16,7 @@ public class Person
         ID = id;
         Name = name;
         Bills = new Dictionary<string, decimal>();
-        IBAN = $"BG99SSSS{id:D12}"; // id=533 BG99SSSS000000000533
+        IBAN = $"BG99SSSS{id:D12}";
         PIN = GenPIN(4); 
     }
     private string GenPIN(int size)
